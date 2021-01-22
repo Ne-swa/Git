@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.kontainer
+{
+    width: 100%;
+    margin: auto;
+    overflow: inherit;
+}
+.nav ul
+{
+    background-color: black;
+    height: 50px;
+}
+
+.nav2 ul
+{
+    background-color: violet;
+    height: 50px;
+    
+}
+.nav li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.nav2 li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+        
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: violet;
+    padding-left: 10px;
+
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 11% auto auto;
+    
+    
+}
+.grid p{
+    padding: 5px;
+    
+    text-align: jutify;
+}
+.grid a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+.grid ul li{
+    padding: 10px 0px 0px 0px;
+    margin-top: 5px;
+}
+#ter
+{
+    float: right;
+    padding-right: 10px;
+}
+.grid a:hover
+{
+    color: red;
+}
+.sidebar
+{
+    background-color: black;
+}
+.gambar img
+{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.gambar p{
+    text-align: justify;
+}
+.gambar1 img{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+.gambar1 p{
+    text-align: justify;
+}
+.nav a:hover
+{
+    color: red;
+}
+.nav2 a:hover{
+    color: red;
+}

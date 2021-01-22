@@ -1,0 +1,44 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    margin: auto;
+    width: 950px;
+    background-color: blue;
+}
+
+.container h1
+{
+    color: black;
+}
+
+.container div img
+{
+    width: 100px;
+    height: 100px;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #bb0e48;
+    padding: 10px; 
+}
+.grid div
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.nama2
+{
+    background-color: chartreuse;
+}
+.nama3
+{background-color:black;}

@@ -1,0 +1,59 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    width: 960px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.body
+{
+    background-color: red;
+}
+.header
+{
+    text-shadow: 2px 2px 5px black;
+    padding: 0px 0px 0px 5px;
+}
+.nav ul li
+{
+    display: inline-block;
+    padding: 5px;
+}
+.nav a
+{
+    text-decoration: none;
+}
+.nav a:hover
+{
+    color: red;
+}
+
+.hero img
+{
+    width: 100%;
+    border-top: 5px solid lightcoral;
+    border-bottom: 5px solid red;
+}
+.content
+{
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.footer
+{
+    background-color: black;
+    height: 25px;
+}
+.copy
+{
+    color: lawngreen;
+    font-size: 20px;
+    text-align: center;
+}
+
+
